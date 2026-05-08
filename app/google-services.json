@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "956395416681",
+    "project_id": "adm-0605",
+    "storage_bucket": "adm-0605.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956395416681:android:a6c2e2cb33e2f1d489c6f8",
+        "android_client_info": {
+          "package_name": "com.adm.adm_0605"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjG1jfEGKQug5ZFgFJABu0kt6mHSeIZ18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

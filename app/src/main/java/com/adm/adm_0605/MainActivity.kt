@@ -67,7 +67,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     ADM_0605Theme {
-        Surface(color = Color(0xFFB710E7)) {
+        Surface(color = Color(0xFF009688)) {
             Greeting("ADM")
         }
     }

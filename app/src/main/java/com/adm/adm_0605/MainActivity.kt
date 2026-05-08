@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
             ADM_0605Theme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = Color(0xFFB710E7)
+                    color = Color(0xFF009688)
                 ) {
                     Greeting(name = "ADM")
                 }

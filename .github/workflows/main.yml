@@ -20,10 +20,14 @@ jobs:
         with:
           ruby-version: '3.0'
 
+      - name: Install specific Bundler version
+        run: gem install bundler:4.0.6
+
       - name: Install dependencies
-        run: |
-          gem install fastlane
-          fastlane install_plugins
+        run: bundle install
+#        run: |
+#          gem install fastlane
+#          fastlane install_plugins
 
       - name: Create credentials file
         run: echo '${{ secrets.FIREBASE_KEY_JSON }}' > firebase-key.json

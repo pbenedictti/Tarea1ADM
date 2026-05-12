@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
             ADM_0605Theme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = Color(0xFF03A9F4)
+                    color = Color(0xFFFF5722)
                 ) {
                     Greeting(name = "ADM")
                 }
@@ -67,7 +67,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     ADM_0605Theme {
-        Surface(color = Color(0xFF3F51B5)) {
+        Surface(color = Color(0xFFFF5722)) {
             Greeting("ADM")
         }
     }

@@ -26,7 +26,7 @@ platform :android do
         app: ENV["FIREBASE_APP_ID"],
         service_credentials_file: "firebase-key.json",
         groups: "testers",
-        release_notes: "Nueva versión automática"
+        release_notes: "Version para demo"
     )
   end
 end
